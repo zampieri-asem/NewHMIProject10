@@ -1,0 +1,12 @@
+Name: 'Program:Screen1'
+Type: FolderType
+Children:
+- Name: Bool001Toggle1Sec
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Screen1.Bool001Toggle1Sec"

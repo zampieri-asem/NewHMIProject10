@@ -1,0 +1,23 @@
+Name: TagImporter
+Type: RAEtherNetIPTagImporter
+OwnerId: ns=2;g=a677c061a96b9b059b05d3a474e1668e
+Children:
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
+- Name: Mode
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 0
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "ns=2;%PROJECTDIR%/CTQ_V4_5.L5X"
